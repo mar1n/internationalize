@@ -18,6 +18,8 @@ i18n
             part1: "Edit <1>src/App.js</1> and save to reload.",
             part2: "Learn React",
           },
+          counter: "Changed language just once",
+          counter_plural: "Changed language already{{count}} times"
         },
       },
       de: {
@@ -26,6 +28,8 @@ i18n
             part1: "Ändere <1>src/App.js</1> und speichere um neu zu laden.",
             part2: "Lerne React",
           },
+          counter: 'Die Sprache wurde erst ein mal gewechselt',
+          counter_plural: 'Die Sprache wurde {{count}} mal gewechselt'
         },
       },
     },
