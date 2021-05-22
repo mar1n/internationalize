@@ -1,13 +1,17 @@
 import logo from './logo.svg';
 import './App.css';
+import { useTranslation, Trans } from 'react-i18next';
 
 function App() {
+  const { t } = useTranslation();
   return (
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
+          <Trans i18nKey="description.part1">
           Edit <code>src/App.js</code> and save to reload.
+          </Trans>
         </p>
         <a
           className="App-link"
@@ -15,7 +19,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          {t('description.part2')}
         </a>
       </header>
     </div>
